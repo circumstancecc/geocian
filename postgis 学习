@@ -41,8 +41,8 @@
   应用4：多边形合并并输出（这个功能sao，直接输出全国多边形）
     select st_asgeojson(st_Union(geom)) from sheng
   应用5：多边形有多少个孔洞
-  select count(*) from sheng where ST_NumInteriorRings(ST_GeometryN(geom,1)) > 0
+    select count(*) from sheng where ST_NumInteriorRings(ST_GeometryN(geom,1)) > 0
   应用6：有多少个子多边形
-  select st_numgeometries(geom) from sheng where name like '%上海%'
+    select st_numgeometries(geom) from sheng where name like '%上海%'
  
 下一期更新空间关系和空间分析...
