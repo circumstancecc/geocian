@@ -1,1 +1,2 @@
-较为专业的postGIS使用操作教程  https://blog.csdn.net/qq_35732147/article/details/85158177
+    较为专业的postGIS使用操作教程  https://blog.csdn.net/qq_35732147/article/details/85158177
+    在安装过程中，如果遇到安装postgre service失败情况，使用administrator权限安装即可
